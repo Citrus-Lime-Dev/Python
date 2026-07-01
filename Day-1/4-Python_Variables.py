@@ -10,3 +10,11 @@ print(name)
 print(len(name)) #len function is used to calculate the number of characters in a string.
 
 print(len(input("What is your naam? ")))
+
+
+#Swapping variables
+a = 2, b = 5
+
+temp = a
+a = b
+b = temp
