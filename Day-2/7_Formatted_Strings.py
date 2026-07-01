@@ -1,14 +1,7 @@
-score = 0
-print(f"Original Score: {score}")
+age = 31
+name = "Kalyan"
+married = True
+height = 1.8
+city = "Hyderabad"
 
-score += 10
-print(f"Updated Score: {score}")
-
-score -= 1
-print(f"Score after a foul: {score}")
-
-score *= 100
-print(f"Score after points: {score}")
-
-score /= 10
-print(f"Final Score: {int(score)}")
+print(f"{name} is a {height} metres tall {age} - year old {"married" if married == True else "unmarried"} guy who is currently residing in {city}")
