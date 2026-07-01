@@ -11,7 +11,7 @@ print(float("123")) -> 123.0
 # print(float("abc")) -> Produces error 
 
 print(str(12345)) -> "12345"
-print(str(True)) -> "1"
+print(str(True)) -> "True"
 print(str(2.56)) -> "2.56"
 
 print(bool(123)) -> True
